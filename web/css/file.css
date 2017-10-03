@@ -1,0 +1,83 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/*background-image: url("img/tên_ảnh");*/
+	background-color: lightgray;
+
+
+}
+
+#logo{
+	height: 110px;
+	width: 900px;
+	margin: auto;
+	margin-top: 10px;
+} 
+
+#logo img{
+	height: 100%;
+	width: 100%;
+}
+
+#menu{
+	height: 40px;
+	width: 900px;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: lightblue;
+}
+
+#menu ul li{
+	list-style-type: none;
+	float: left;
+	line-height:40px;
+	border-right: 1px solid white;
+	text-align: center;
+
+
+
+}
+ 
+#menu ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 15px;
+}
+
+#menu ul li:hover{
+	background-color: orange;
+	border-radius: 4px;
+}
+
+
+#menu ul li a:hover{
+	color: black;
+}
+
+#main{
+	height: 1000px;
+	width: 900px;
+	
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+#left{
+	border: 1px solid black;
+	height: 1000px;
+	width: 630px;
+	float: left;
+
+}
+#right{
+	border: 1px solid black;
+	height: 1000px;
+	width: 260px;
+	float: left;
+	margin-left: 6px;
+
+}
