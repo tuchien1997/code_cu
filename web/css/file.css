@@ -5,7 +5,7 @@
 
 body{
 	/*background-image: url("img/tên_ảnh");*/
-	background-color: lightgray;
+	background-color: white;
 
 
 }
@@ -67,8 +67,8 @@ body{
 	border-radius: 4px;
 }
 #left{
-	border: 1px solid black;
-	height: 1000px;
+		
+	
 	width: 630px;
 	float: left;
 
@@ -79,5 +79,45 @@ body{
 	width: 260px;
 	float: left;
 	margin-left: 6px;
+
+}
+
+#thongbao{
+	width: 100%;
+	height: 700px;
+	border: 1px solid lightblue;
+	border-radius: 4px;
+}
+
+#tintuc{
+	width: 100%;
+	height: 370px;
+	border: 1px solid blue;
+	border-radius: 4px;
+	margin-top: 10px;
+
+}
+
+#thongbao1{
+	width: 100%;
+	height: 40px;
+	background-color: lightblue;
+	color: white;
+	border-radius: 4px;
+	line-height: 40px;
+
+
+}
+
+.ndthongbao{
+	width: 97%;
+	
+	border-bottom: dotted 1px gray;
+	margin-top:15px;
+	padding-bottom: 5px;
+	
+	padding-left: 8px;
+
+
 
 }
