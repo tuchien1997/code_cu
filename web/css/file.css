@@ -74,7 +74,7 @@ body{
 
 }
 #right{
-	border: 1px solid black;
+	
 	height: 1000px;
 	width: 260px;
 	float: left;
@@ -84,7 +84,7 @@ body{
 
 #thongbao{
 	width: 100%;
-	height: 700px;
+	
 	border: 1px solid lightblue;
 	border-radius: 4px;
 }
@@ -120,4 +120,11 @@ body{
 
 
 
+}
+
+#dangnhap{
+	border: 1px solid lightblue;
+	border-radius: 4px;
+	width: 100%;
+	height: 280px;
 }
